@@ -1,0 +1,107 @@
+
+  header, footer {
+    color:#F0C5B6;
+    background-color:#0b213d;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header{
+      font-size: 45px;
+  }
+
+  .container{
+    background-color:#0C2E5B;
+    width: 80%;
+    margin-left: 10%; 
+    margin-right: 10%;
+    padding: left 5%; 
+    padding: right 5%; 
+    padding: top 2.5%;
+    padding: bottom 2.5%;
+    min-height: 100vh;
+  }
+
+  table{
+    border: 1px solid #F0C5B6;
+    background-color: #0b213d;
+    border-style: double;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-content: center;
+  }
+
+  img{
+    width: 80%;
+    max-width: 500px;
+    border-radius: 15px;
+  }
+
+  img:hover {
+    transform: scaleX(-1);
+  }
+
+  a:hover{
+    color:yellow;
+  }
+
+  a:visited{
+    color: green;
+  }
+
+  input:focus {
+    color: rgb(201, 36, 173);
+  }
+
+
+  body{
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    color:#F0C5B6;
+  }
+
+  .polaroid img {
+    width: 80%;
+    border-radius: 25px 25px 0 0;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .polaroid {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin: auto;
+    padding: 2.5%;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px 3px Gainsboro;
+  }
+
+  .flex_col{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .landingpage {
+      background: url(https://uwujka.pl/uploads/monthly_2020_11/The-sky-at-night.jpg.9a6fc91dd661726dc3aaf58eb9371077.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      font-size: 60px;
+      }
+
+  #zegar{
+    display: flex;
+    justify-content: right;
+    border-color: #0b213d;
+  }

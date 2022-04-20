@@ -1,0 +1,119 @@
+.nav_title{
+    margin: 0px 30px;
+    }
+
+.nav-top {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    top: 0;
+    background-color:#0b213d;
+    }
+
+.nav_img{
+    display: flex;
+    justify-content: right;
+    width: 2.3cm;
+}
+
+.nav_img:hover, .nav_title:hover{
+    animation-name: spin;
+    animation-duration: 2s;
+}
+
+@keyframes spin { 
+    from { 
+        -webkit-transform: rotate(0deg); 
+    } to { 
+        -webkit-transform: rotate(360deg); 
+    }
+}
+
+/*napis zamiasy logo*/
+@media screen and (min-width: 980px) {
+    .nav_img{
+        display: none;
+    }
+}
+
+/*logo zamiast napisu*/
+@media screen and (max-width: 980px) and (min-width:650px){
+    .nav_title{
+        display: none;
+    }
+}
+
+/*przyciski z napisami*/
+@media screen and (min-width:650px){
+    .nav_icon, .nav_icon i{
+        display: none;
+    }
+    
+    .nav_item{
+        display: inline-block;
+        margin: 0px 30px;
+        }
+    
+    .nav_item a {
+        display: block;
+        float: left;
+        text-align:center;
+        font-size: 0.65em;
+        width: 1cm;
+        text-decoration: none;
+        color: rgb(79, 25, 87);
+        background-color: white;
+        padding: 10px 15px;
+        margin: 0px 1px 1px 0px;
+        border: 1px solid black;
+        border-radius: 3px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 0px 2px 3px gray;
+        -moz-box-shadow: 0px 2px 3px gray;
+        -webkit-box-shadow: 0px 2px 3px gray; 
+        }
+    
+    .nav_item a:hover {
+        color: rgb(173, 68, 159);
+        background: rgb(153, 182, 224);
+        border: 1px solid rgb(141, 141, 240);
+        }
+}
+
+/*ikonki zamiast napisów*/
+@media screen and (max-width: 650px){
+    
+    .nav_item,  .nav_item a,.nav_title {
+        display: none;
+    }
+
+    
+    .nav_icon i{
+        display: block;
+        float: left;
+        text-align:center;
+       color: black;
+       font-size: 0.7cm;
+    }
+
+    
+    .nav_icon{
+        display: inline-block;
+        margin: 0px 30px;
+        width: 1.2cm;
+        height: 1.2cm;
+        border: 1px solid black;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    .nav_icon:hover{
+        background: rgb(153, 182, 224);
+        border: 1px solid rgb(141, 141, 240);
+        }
+    
+}

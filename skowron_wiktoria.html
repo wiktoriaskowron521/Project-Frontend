@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+
+     <head>
+        <link rel="stylesheet" media="screen" href="Styles/styles.css"/>
+        <link rel="stylesheet" media="screen" href="Styles/styl_menu_gorne.css"/>
+        <link rel="stylesheet" media="screen" href="Styles/styl_menu_boczne.css"/>
+        <meta charset="UTF-8" />
+        <title>Astrologia - nauka o gwiazdach</title>
+        <link rel="icon" type="image/x-icon" href="Images/astrology.ico"/>
+        <script src="https://kit.fontawesome.com/26c0899883.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     </head>
+     <script>
+        $(document).ready(function() {
+            $('.Sekcja1').on('click', function(event) {
+                var target = $($(this).attr('href'));
+                if (target.length) {
+                    event.preventDefault();
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+        });
+
+        $(document).ready(function() {
+            $('.Sekcja2').on('click', function(event) {
+                var target = $($(this).attr('href'));
+                if (target.length) {
+                    event.preventDefault();
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+        });
+
+        $(document).ready(function() {
+            $('.Sekcja3').on('click', function(event) {
+                var target = $($(this).attr('href'));
+                if (target.length) {
+                    event.preventDefault();
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+        });
+
+        $(document).ready(function() {
+            $('.Sekcja4').on('click', function(event) {
+                var target = $($(this).attr('href'));
+                if (target.length) {
+                    event.preventDefault();
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+        });
+
+        $(document).ready(function() {
+            $(window).resize(function() {
+                if ($(this).width() <= 600) {
+                    $('.side-menu-container').hide();
+                    $('.nav_list').show();
+                    $('.nav_icons').show();
+                } else {
+                    $('.side-menu-container').show();
+                    $('.nav_list').hide();
+                    $('.nav_icons').hide();
+                }
+            });
+        });
+        </script>
+     
+     <body style="margin: 0px;">
+<!--menu górne-->
+        <nav class="nav-top">
+            <div class="nav_title">ASTROLOGIA - CZYLI NAUKA O GWIAZDACH</div>
+            <div class="nav_img">
+                <img src="Images/logo.jpg" alt=" "/>
+            </div>
+
+            <div class="nav_list">
+                <div class="nav_item"><a  class="Sekcja1" href="skowron_wiktoria.html#sekcja1">sekcja 1</a></div>
+                <div class="nav_item"><a class="Sekcja2" href="skowron_wiktoria.html#sekcja2">sekcja 2</a></div>
+                <div class="nav_item"><a class="Sekcja3" href="skowron_wiktoria.html#sekcja3">sekcja 3</a></div>
+                <div class="nav_item"><a class="Sekcja4" href="skowron_wiktoria.html#sekcja4">sekcja 4</a></div>
+            </div>
+
+            <div class="nav_icons">
+                <button class="nav_icon"><a class="Sekcja1" href="skowron_wiktoria.html#sekcja1"><i class="far fa-moon"></i></a></button>
+                <button class="nav_icon"><a class="Sekcja2" href="skowron_wiktoria.html#sekcja2"><i class="fas fa-meteor"></i></a></button>
+                <button class="nav_icon"><a class="Sekcja3" href="skowron_wiktoria.html#sekcja3"><i class="fas fa-hamsa"></i></a></button>
+                <button class="nav_icon"><a class="Sekcja4" href="skowron_wiktoria.html#sekcja4"><i class="fas fa-biohazard"></i></a></button>
+            </div>
+        </nav>
+
+<!--menu boczne-->
+        <div class="side-menu-container">
+            <nav class="side-menu">
+              <a class="Sekcja1" href="skowron_wiktoria.html#sekcja1"><div><i class="fas fa-home"></i></div></a>
+              <a class="Sekcja2" href="skowron_wiktoria.html#sekcja2"><div><i class="fas fa-question"></i></div></a>
+              <a class="Sekcja3" href="skowron_wiktoria.html#sekcja3"><div><i class="fas fa-briefcase"></i></div></a>
+              <a class="Sekcja4" href="skowron_wiktoria.html#sekcja4"><div><i class="fas fa-address-card"></i></div></a>
+            </nav>
+          </div>
+
+        <div class="landingpage">
+            <p>ASTROLOGIA</p>
+        </div>
+
+        <div class="container-main; container">
+        <div class="container" id="sekcja1">
+            <h1>Pojęcie astrologii</h1>
+            <p>
+                Wróżbiarstwo polegające na próbach przewidywania przyszłości poszczególnych ludzi 
+                i wydarzeń na Ziemi na podstawie położenia ciał niebieskich na nieboskłonie.
+                Astrologia jest dziedziną pseudonaukową. Wykazano, że astrologia nie sprawdza się, 
+                a pozorną skuteczność, przykładowo horoskopów, tłumaczy się efektem Barnuma i innymi błędami 
+                poznawczymi. Według astrofizyka, prof. Marka Abramowicza, postulowana przez astrologię 
+                możliwość wyjaśniania zachowań ludzi oddziaływaniem specyficznego układu ciał niebieskich 
+                jest wykluczona, a rozpowszechnianie informacji o takich możliwościach jest społecznie 
+                szkodliwe – uczy pogardy dla kultury. Twierdzi on również, że przeciwstawianie się 
+                propagowaniu astrologii jest społecznym obowiązkiem astronomów, i nie tylko astronomów.
+            </p>
+
+            <div class="polaroid">
+                <img src="https://nypost.com/wp-content/uploads/sites/2/2021/11/astrology-sun-moon-rising-signs-1-copy.jpg?quality=90&strip=all&w=1116" alt=" "/>
+                <a href="https://nypost.com/article/sun-moon-rising-sign-meaning/"> https://nypost.com/article/sun-moon-rising-sign-meaning/ </a>
+            </div>
+
+            <h2> Czym zajmuje się astrologia?</h2>
+            <p> Astrolog to osoba, która na podstawie dogłębnej analizy aktualnego układu ciał niebieskich 
+                względem siebie, wyjaśnia i interpretuje zachodzące na Ziemi zjawiska i zdarzenia. W praktyce 
+                oznacza to, że astrolog zajmuje się opracowywaniem horoskopów, dla osób prywatnych, 
+                a nawet instytucji czy państw.
+            </p>
+
+            <h3> Kto wymyślił astrologię? Skąd się wzięły znaki zodiaku?</h3>
+            <p> Najstarsze zapiski astrologiczne wskazują, że konstelacje gwiazd zaczęto nazywać już w starożytnej Mezopotamii. 
+                Najprawdopodobniej, nazwy gwiazdozbiorów wymyślili Sumerowie, choć nie jest to do końca jasne i niektóre teorie 
+                wskazują, że jest to zasługą Akadyjczyków. Pewne jest natomiast, że charakterystycznych kształtów w gwiazdach 
+                doszukiwano się już 3-4 tysiące lat temu.  
+
+                Wówczas, nazwanych gwiazdozbiorów było więcej niż 12. Mniej więcej 500 lat p.n.e., astronomowie babilońscy podzielili 
+                ekliptykę na 12 równych, 30-stopniowych części. Owe fragmenty utworzyły zodiak, który jest przecinany kołem zataczanym 
+                ruchem Ziemi wokół Słońca. Wymagało to podzielenia gwiazdozbiorów, różniących się pod względem długości. Można zatem 
+                powiedzieć, że znaki zodiaku zostały "wyrwane" z pierwotnych konstelacji.
+                
+                Zaobserwowano jednak istotny problem - udało się bowiem ustalić, że punkt położenia Słońca w momencie 
+                wiosennego zrównania dnia z nocą, ulega przesunięciu o ok. 50 sekund kątowych w ciągu 12 miesięcy. Przed 
+                naszą erą, punkt, o którym mowa, był położony w pobliżu początku gwiazdozbioru Barana. Wraz z nastaniem naszej ery, 
+                jego położenie było jednak bliższe gwiazdozbiorowi Ryb.
+            </p>
+        </div> 
+
+        <hr/>
+
+        <div class="container" id="sekcja2">
+            <h1>Historia astrologii</h1>
+            <p>
+                Astrologia nazywana jest czasem „wiedzą królewską”. 
+                Od początku bowiem nielicznych wówczas astrologów można było znaleźć tylko na dworach władców.
+                W starożytności nie występowało rozróżnienie pomiędzy astronomią a astrologią w dzisiejszym 
+                rozumieniu tych pojęć. Astrologia była wówczas wyżej ceniona jako nauka, astronomia była jedynie jej nauką pomocniczą. Mikołaj Kopernik we wstępie do swojego epokowego dzieła De revolutionibus orbium coelestium („O obrotach sfer niebieskich”) pisze o „Nauce, którzy jedni zowią astrologią, inni astronomią, a wielu spośród starożytnych szczytem matematyki”. Dopiero usunięcie w XVIII wieku katedr astrologii na uniwersytetach (m.in. na UJ) zapoczątkowało zepchnięcie jej do roli pseudonauki.
+                Astrologii używano przede wszystkim do prognozowania pogody oraz wyznaczania szczęśliwych 
+                dni. Większe przepowiednie, jeśli były trafne, przynosiły sławę i bogactwo. Nietrafione 
+                niejednokrotnie kończyły się śmiercią astrologa. Stąd astrolodzy dbali o to, by były 
+                dostatecznie niejasne i pozostawiające jak największą możliwość interpretacji.
+                Pierwotnie uważano, że ciała niebieskie reprezentują na niebie władców ziemskich. 
+                W pierwszym tysiącleciu przed n.e. ugruntował się pogląd związany z wróżbiarstwem, 
+                że indywidualne losy władców mogą być odczytane z położenia ciał niebieskich.
+            </p>
+        </div>
+
+        <hr/>
+
+        <div class="container" id="sekcja3">
+            <h1>Pojęcie horoskopu</h1>
+            <p>
+                <strong>Horoskop (z greki: podglądanie godziny; hora – godzina; skopein – zaglądać, podglądać, podpatrywać)</strong> – 
+                w astrologii przepowiednia lub charakterystyka danej osoby, czy też wydarzenia, sporządzona na podstawie 
+                układu ciał niebieskich według daty, godziny i miejsca.
+                Iluzję skuteczności horoskopów tłumaczy się efektem Barnuma i innymi błędami poznawczymi. 
+                Tworzenie horoskopów jest dziedziną pseudonaukową.
+                <strong>Podobnie jak inne metody wróżbiarskie, horoskopy nie są uznawane przez współczesną naukę, a ich krytycy często 
+                zauważają, że wiele horoskopów wykorzystuje tendencyjność poznawczą i celowo ogólnikowe sformułowania, by stworzyć 
+                iluzję skuteczności (patrz: Efekt Forera).</strong> Mimo tego horoskopy cieszą się dużą popularnością. 
+                Większość publikowanych dziś horoskopów w prasie kolorowej jest jedynie formą zabawy, ma charakter ogólny i 
+                dotyczy znacznych grup populacji uszeregowanych według daty urodzenia (zwykle w powiązaniu ze znakiem Zodiaku, 
+                to jest odcinkiem ekliptyki). Ich autorami bywają osoby całkowicie nieznające się na astrologii. 
+                Współcześni astrolodzy zajmują się, jak przed wiekami, przede wszystkim wykreślaniem i interpretacją 
+                horoskopów indywidualnych dla poszczególnych osób. Znajdują się w nim pozycje wszystkich planet oraz wiele 
+                dodatkowych punktów, np.: Domy (związane z godziną i miejscem urodzenia). Dodawane są niekiedy również nowo 
+                odkryte planetoidy i asteroidy.
+            </p>
+            <div class="polaroid">
+                <img src="Images/zodiac.jpg" alt=" "/>
+                <a href="https://unsplash.com/s/photos/zodiac-sign"> https://unsplash.com/s/photos/zodiac-sign </a>
+            </div>
+        </div>
+
+        <hr/>
+
+        <div class="container" id="sekcja4">
+            <h1>Znaki zodiaku</h1>
+            <p>
+                Znaki zodiaku występują w każdym horoskopie w stałej kolejności: od Barana po Ryby. W znaku Skorpiona zawarty jest 
+                pierwotny wizerunek śmierci, w znaku Barana – pierwotne doświadczenie przyjścia na świat. Baran jest znakiem wiosny, 
+                a właśnie wiosną cała natura odradza się na nowo (przynajmniej na półkuli północnej). Dla odmiany w tropikach siła 
+                Barana wyraża się w innej formie, choć w swej istocie zachowuje swoje podstawowe cechy: popędu płciowego, 
+                gwałtownie wybuchającego życia. </p>
+                <br/>
+                <a href="https://goop.com/wellness/spirituality/horoscope-predictions-2022/"> Horoskop na 2022 rok </a>
+                <br/>
+                <br/>
+                Znaki zodiaku:
+                <div class="flex_col">
+                <ul >
+                    <li>Baran</li>
+                    <li>Byk</li>
+                    <li>Bliźnięta</li>
+                    <li>Rak</li>
+                    <li>Lew</li>
+                    <li>Panna</li>
+                    <li>Waga</li>
+                    <li>Skorpion</li>
+                    <li>Strzelec</li>
+                    <li>Koziorożec</li>
+                    <li>Wodnik</li>
+                    <li>Ryby</li>
+                </ul>
+
+                <ol>
+                    <li>Baran</li>
+                    <li>Byk</li>
+                    <li>Bliźnięta</li>
+                    <li>Rak</li>
+                    <li>Lew</li>
+                    <li>Panna</li>
+                    <li>Waga</li>
+                    <li>Skorpion</li>
+                    <li>Strzelec</li>
+                    <li>Koziorożec</li>
+                    <li>Wodnik</li>
+                    <li>Ryby</li>
+                </ol>
+            </div>
+                Poniżej znajduje się tabela ze szczęśliwymi metalami i kamieniami dla wybranych znaków:
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Baran</th>
+                            <th>Byk</th>
+                            <th>Bliźnięta</th>
+                            <th>Rak</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ametyst</td>
+                            <td>Malachit</td>
+                            <td>Turkus</td>
+                            <td>Kamień księżycowy</td>
+                        </tr>
+                        <tr>
+                            <td>Aluminium</td>
+                            <td>Miedź</td>
+                            <td>Złoto</td>
+                            <td>Bronz</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+        </div>  
+
+        <footer>
+            <p>Wiktoria Skowron, 2022 ©
+            <br><br/>
+            <a href="mailto:wiktoriaskowron521@gmail.com">wiktoriaskowron521@gmail.com</a></p>
+            <div id="zegar">a</div>
+    <script>
+      function getTime() 
+      {
+        return (new Date()).toLocaleTimeString();
+      }
+      
+      document.getElementById("zegar").innerHTML = getTime();
+
+      setInterval(function() {
+        document.getElementById("zegar").innerHTML = getTime();
+      }, 1000);
+
+    </script>
+        </footer> 
+    </body>
+
+</html>
+
+
