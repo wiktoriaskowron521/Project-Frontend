@@ -92,9 +92,9 @@
 
     
     .nav_icon i{
-        display: block;
-        float: left;
-        text-align:center;
+        display: flex;
+        float: none;
+        justify-content: center;
        color: black;
        font-size: 0.7cm;
     }
@@ -109,6 +109,7 @@
         border-radius: 5px;
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
+        background-color: rgb(228, 228, 228);
     }
 
     .nav_icon:hover{
