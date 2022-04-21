@@ -12,31 +12,32 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      </head>
-     <script>
-        $(document).ready(function () {
-            $("a").on('click', () => {
-                $('html').css({
-                    "scroll-behavior": "smooth"
-                });
-            });
-        });
-
-        $(document).ready(function() {
-            $(window).resize(function() {
-                if ($(this).width() <= 600) {
-                    $('.side-menu-container').hide();
-                    $('.nav_list').show();
-                    $('.nav_icons').show();
-                } else {
-                    $('.side-menu-container').show();
-                    $('.nav_list').hide();
-                    $('.nav_icons').hide();
-                }
-            });
-        });
-        </script>
+     
      
      <body style="margin: 0px;">
+        <script>
+            $(document).ready(function () {
+                $("a").on('click', () => {
+                    $('html').css({
+                        "scroll-behavior": "smooth"
+                    });
+                });
+            });
+    
+            $(document).ready(function() {
+                $(window).resize(function() {
+                    if ($(this).width() <= 600) {
+                        $('.side-menu-container').hide();
+                        $('.nav_list').show();
+                        $('.nav_icons').show();
+                    } else {
+                        $('.side-menu-container').show();
+                        $('.nav_list').hide();
+                        $('.nav_icons').hide();
+                    }
+                });
+            });
+            </script>
 <!--menu górne-->
         <nav class="nav-top">
             <div class="nav_title">ASTROLOGIA - CZYLI NAUKA O GWIAZDACH</div>
