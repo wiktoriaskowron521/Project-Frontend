@@ -1,4 +1,7 @@
-
+html{
+  background-color: rgb(232, 215, 232);
+}
+  
   header, footer {
     color:#F0C5B6;
     background-color:#0b213d;
@@ -29,10 +32,8 @@
     background-color: #0b213d;
     border-style: double;
     color: white;
-    display: block;
-    justify-content: center;
-    align-content: center;
   }
+
 
   img{
     width: 80%;

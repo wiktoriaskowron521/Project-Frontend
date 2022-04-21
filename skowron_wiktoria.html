@@ -13,51 +13,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      </head>
      <script>
-        $(document).ready(function() {
-            $('.Sekcja1').on('click', function(event) {
-                var target = $($(this).attr('href'));
-                if (target.length) {
-                    event.preventDefault();
-                    $('html, body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                }
-            });
-        });
-
-        $(document).ready(function() {
-            $('.Sekcja2').on('click', function(event) {
-                var target = $($(this).attr('href'));
-                if (target.length) {
-                    event.preventDefault();
-                    $('html, body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                }
-            });
-        });
-
-        $(document).ready(function() {
-            $('.Sekcja3').on('click', function(event) {
-                var target = $($(this).attr('href'));
-                if (target.length) {
-                    event.preventDefault();
-                    $('html, body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                }
-            });
-        });
-
-        $(document).ready(function() {
-            $('.Sekcja4').on('click', function(event) {
-                var target = $($(this).attr('href'));
-                if (target.length) {
-                    event.preventDefault();
-                    $('html, body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                }
+        $(document).ready(function () {
+            $("a").on('click', () => {
+                $('html').css({
+                    "scroll-behavior": "smooth"
+                });
             });
         });
 
@@ -250,7 +210,9 @@
                     <li>Ryby</li>
                 </ol>
             </div>
-                Poniżej znajduje się tabela ze szczęśliwymi metalami i kamieniami dla wybranych znaków:
+            Poniżej znajduje się tabela ze szczęśliwymi metalami i kamieniami dla wybranych znaków:
+
+            <div class="flex_col">
                 <table>
                     <thead>
                         <tr>
@@ -275,6 +237,7 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>  
         </div>
         </div>  
 
